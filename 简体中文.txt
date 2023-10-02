@@ -1,3 +1,4 @@
+# 开源网址：https://gitee.com/YouFeng11/sfscn
 [None]
     None=None
     Font=normal
@@ -240,7 +241,7 @@
     PlanetsExpansion_Conclusion=去探索它们吧！
 
 [Sharing]
-    Share_Button=Share Blueprint
+    Share_Button=分享蓝图
     Upload_Blueprint_PC=上传蓝图
     Download_Blueprint_PC=下载蓝图
     Share_Button_PC=分享
