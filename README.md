@@ -8,3 +8,6 @@ Spaceflight Simulator的第三方汉化包
 
 ## 注意
 该汉化不对旧版本作维护与适配
+
+## 开源协议
+MIT License
