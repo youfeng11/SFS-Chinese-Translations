@@ -266,7 +266,7 @@
     Language_Name=语言
     Menu_Scale=界面尺寸
     Menu_Opacity=界面不透明度
-    Shakes_Name=相机抖动
+    Shakes_Name=视角抖动
     Orbit_Line_Count=轨道线数量
     Anti_Aliasing=抗锯齿
 
@@ -354,8 +354,8 @@
     Transfer=转移窗口
 
 [Game]
-    Throttle_On=On
-    Throttle_Off=Off
+    Throttle_On=开
+    Throttle_Off=关
     Ignition=点火
     RCS=RCS
 
@@ -456,12 +456,12 @@
     No_Control_Msg=无控制
 
 [Timewarp]
-    Msg_Timewarp_Speed=时间加速%speed%x
+    Msg_Timewarp_Speed=时间加速%speed%倍
 
     Cannot_Timewarp_Below_Basic=无法在%height%以下进行时间加速
-    Cannot_Timewarp_Below=无法在%height%以下进行%speed%x以上的时间加速
-    Cannot_Timewarp_While_Moving_On_Surface=无法在地表移动时进行%speed%x以上的时间加速
-    Cannot_Timewarp_While_Accelerating=无法在加速状态下进行%speed%x以上的时间加速
+    Cannot_Timewarp_Below=无法在%height%以下进行%speed%倍以上的时间加速
+    Cannot_Timewarp_While_Moving_On_Surface=无法在地表移动时进行%speed%倍以上的时间加速
+    Cannot_Timewarp_While_Accelerating=无法在加速状态下进行%speed%倍以上的时间加速
     Cannot_Use_Part_While_Timewarping=无法在时间加速时使用%part{1}%
     Cannot_Turn_While_Timewarping=无法在时间加速时转向
 
@@ -469,20 +469,20 @@
 
 [Units]
     Thrust_To_Weight_Ratio=推力/重量：%value%
-    Mass=质量：%value%t
-    Thrust=推力：%value%t
-    Burn_Time=燃烧时间：%value%s
-    Efficiency=效率：%value% Isp
-    Mass_Unit=t
-    Meter_Unit=m
-    Km_Unit=km
-    Meter_Per_Second_Unit=m/s
+    Mass=质量：%value%吨
+    Thrust=推力：%value%吨
+    Burn_Time=燃烧时间：%value%秒
+    Efficiency=效率：%value%比冲
+    Mass_Unit=吨
+    Meter_Unit=米
+    Km_Unit=千米
+    Meter_Per_Second_Unit=米/秒
 
 [Timestamps]
-    Second_Short=%value%s
-    Minute_Short=%value%m
-    Hour_Short=%value%h
-    Day_Short=%value%d
+    Second_Short=%value%秒
+    Minute_Short=%value%米
+    Hour_Short=%value%时
+    Day_Short=%value%天
 
 [Resource Types]
     Solid_Fuel{0}=固体燃料
@@ -599,9 +599,9 @@
     Fuel_Pipe_Description=用于输送燃料的管道
 
 [Modules]
-    Torque_Module_Torque=扭矩：%value%kN
-    Separation_Force=分离力：%value%kN
-    Magnet_Force=磁力：%value%kN
+    Torque_Module_Torque=扭矩：%value%千牛
+    Separation_Force=分离力：%value%千牛
+    Magnet_Force=磁力：%value%千牛
 
     Max_Heat_Tolerance=耐热性：%temperature%
 
@@ -687,14 +687,14 @@
     Liftoff_Title=升空
     Liftoff=升空并安全着陆
 
-    Reach10km_Title=到达10km
-    Reach10km=到达10km并安全着陆
+    Reach10km_Title=到达10千米
+    Reach10km=到达10千米并安全着陆
 
     ReachSpace_Title=到达太空
     ReachSpace=到达%height%，并再入大气并安全着陆
 
-    Land100kmDownrange_Title=着陆100km之外
-    Land100kmDownrange=着陆在距离发射台100km之外的地方
+    Land100kmDownrange_Title=着陆100千米之外
+    Land100kmDownrange=着陆在距离发射台100千米之外的地方
 
     ReachLowEarthOrbit_Title=到达近地轨道
     ReachLowEarthOrbit=到达近地轨道，然后安全着陆
@@ -709,7 +709,7 @@
     MoonTour=着陆在3个不同的地标上，然后安全返回
 
     AsteroidImpact_Title=小行星撞击
-    AsteroidImpact=以200+m/s的速度撞向被捕获的小行星表面
+    AsteroidImpact=以200+米/秒的速度撞向被捕获的小行星表面
 
     MarsGrandTour_Title=火星大旅行
     MarsGrandTour=一次性在火星、火卫一和火卫二着陆，然后安全返回
